@@ -16,6 +16,7 @@
 		FD58A7EF28242A51009C7784 /* SliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58A7EE28242A51009C7784 /* SliderTests.swift */; };
 		FD58A7F928242A51009C7784 /* SliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58A7F828242A51009C7784 /* SliderUITests.swift */; };
 		FD58A7FB28242A51009C7784 /* SliderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58A7FA28242A51009C7784 /* SliderUITestsLaunchTests.swift */; };
+		FD58A80828245235009C7784 /* SliderStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58A80728245235009C7784 /* SliderStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD58A7F428242A51009C7784 /* SliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD58A7F828242A51009C7784 /* SliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUITests.swift; sourceTree = "<group>"; };
 		FD58A7FA28242A51009C7784 /* SliderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD58A80728245235009C7784 /* SliderStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		FD58A7CB28242A50009C7784 = {
 			isa = PBXGroup;
 			children = (
+				FD58A80728245235009C7784 /* SliderStack.swift */,
 				FD58A7D628242A50009C7784 /* Slider */,
 				FD58A7ED28242A51009C7784 /* SliderTests */,
 				FD58A7F728242A51009C7784 /* SliderUITests */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD58A7DC28242A50009C7784 /* ViewController.swift in Sources */,
+				FD58A80828245235009C7784 /* SliderStack.swift in Sources */,
 				FD58A7D828242A50009C7784 /* AppDelegate.swift in Sources */,
 				FD58A7DA28242A50009C7784 /* SceneDelegate.swift in Sources */,
 			);
